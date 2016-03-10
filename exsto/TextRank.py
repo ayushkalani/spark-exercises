@@ -3,7 +3,7 @@
 
 from itertools import tee, izip
 from nltk import stem
-from text.blob import TextBlob as tb
+from textblob import TextBlob as tb
 from textblob_aptagger import PerceptronTagger
 import nltk.data
 import numpy as np
